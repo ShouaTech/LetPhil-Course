@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    margin: 0 320px 10px 320px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: black;
+    color:white;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
+
+.four {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
+
+.five {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 1px;
+}
+
+ #first {
+    color: gold;
+ }
+
+ #second {
+    color: silver;
+ }
+
+ #third {
+    color: #CD7F32;
+ }
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="A community signup event form">
+        <meta name="keywords" content="HTML, CSS, event, signup, form">
+        <meta name="author" content="Benny Yang">
+        <title>Community Event Signup</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page">
+        <header>
+            <h1>Beginner Web Development Workshop</h1>
+            <p>May 18, 2026 — <span>Gregg/Klice Community Center, Kansas City, Missouri</span></p>
+        </header>
+        <main>
+            <section class="card">
+                <h2>Event Highlights</h2>
+                <ul>
+                    <li>Introduction to HTML page structure</li>
+                    <li>Hands-on practice with headings, paragraphs, and lists</li>
+                    <li>Learn how to build tables and forms</li>
+                    <li>Beginner-friendly live coding session</li>
+                    <li>Q&A and web development tips for next steps</li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Schedule</h2>
+                <table border=3>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                            <th>Notes</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>10:00 AM</td>
+                                <td>Check-in and Welcome</td>
+                                <td>Participants arrive and get settled</td>
+                            </tr>
+                            <tr>
+                                <td>10:30 AM</td>
+                                <td>HTML Basics Lesson</td>
+                                <td>Learn page structure and common tags</td>
+                            </tr>
+                            <tr>
+                                <td>11:15 AM</td>
+                                <td>Hands-on Coding Practice</td>
+                                <td>Build a simple webpage step by step</td>
+                            </tr>
+                            <tr>
+                                <td>12:00 PM</td>
+                                <td>Q&A and Wrap-up</td>
+                                <td>Ask Questions and review next steps</td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
+            </section>
+            <section class="card">
+                <h3>Signup Form</h3>
+                <form>
+                    <label for="name">Full-Name</label>
+                    <input type="text" id="name">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                    <br>
+                    <select id="ticket-type">
+                        <option value="">Ticket Type</option>
+                        <option value="free-admission">Free Admission</option>
+                        <option value="student-ticket">Student Ticket</option>
+                        <option value="general-admission">General Admission</option>
+                        <option value="vip-ticket">VIP Ticket</option>
+                    </select>
+                    <br>
+                    <label>Dietary Preference</label>
+                    <input type="radio" id="none" name="diet" value="none">
+                    <label for="none">None</label>
+
+                    <input type="radio" id="vegetarian" name="diet" value="vegan">
+                    <label for="vegetarian">Vegetarian</label>
+
+                    <input type="radio" id="vegan" name="diet" value="vegan">
+                    <label for="vegan">Vegan</label>
+
+                    <input type="radio" id="gluten-free" name="diet" value="gluten-free">
+                    <label for="gluten-free">Gluten free</label>
+                    <br>
+                    <label for="agree-to-terms">Agree to terms</label>
+                    <input type="checkbox" id="agree-to-terms">
+                    <br>
+                    <label for="message">Message</label>
+                    <input type="text" id="message">
+                    <button type="submit">Submit</button>
+                </body>
+                    </form>
+            </section>
+        </main>
+        <footer>
+            <ol>
+                <li></li>
+            </ol>
+        </footer>
+        </div>
+</html>

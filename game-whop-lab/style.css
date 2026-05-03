@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 700px;
+    background-color: #4b4527;
+    margin: 0 128px 0 130px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.top-btns{
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: darkgrey;
+    box-shadow: 2px 2px 4px black;
+    color: #4E342E;
+    font-size: 15px;
+}
+
+body {
+    background-color: black;
+}
+
+
+img {
+    height: 800px;
+    width: 1193px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: auto;
+    font-size: 30px;
+    background-color: #4b4527;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 5px black;
+    background-color: darkgrey;
+}
+
+.up-btn {
+    padding: 20px;
+    margin: 20px 0 0 200px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.side-btn {
+    padding: 20px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.interact-btn {
+    padding: 50px;
+    box-shadow: 1px 1px 3px black;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    background-color: grey;
+    font-weight: bold;
+}
+
+#left {
+    margin: 10px 20px 0 120px;
+    background-color: blue;
+}
+
+#right {
+    margin-left: 65px;
+    background-color: red;
+}
+
+.down-btn {
+    padding: 20px;
+    margin: 1px 0 0 193px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: lightgreen;
+} 

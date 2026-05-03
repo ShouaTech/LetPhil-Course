@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Events</title>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+
+    <p id="output"></p> 
+     
+    <script>
+        function handleClick() {
+            console.log("handle click");
+            btn.removeEventListener("click", handleClick);
+        }
+
+        btn.addEventListener("click", handleClick);
+
+        // const dropdown = document.getElementById("dropdown"); -->
+        // const output = document.getElementById("output"); -->
+
+        // dropdown.addEventListener("change", function() { -->
+        //     output.textContent = "You Selected: " + dropdown.value; -->
+        // }); -->
+        // const input = document.getElementById("textInput"); // now refers to the input box
+        // const display = document.getElementById("displayText"); // now refers to the paragraph
+
+        // input.addEventListener("keyup", function(event) { // keyup means whenever user releases key after typing, run the code
+        //     display.textContent = "You Typed: " + event.target.value;
+        // });
+
+        // function sayHello() {
+        //     alert("Hello, Javascript");
+        // }
+
+        // const button = document.getElementById("btn");
+
+        // button.addEventListener("click", () => {
+        //     alert("Hello From Javascript");
+        // });
+
+        // const text = document.getElementById("hoverText");
+
+        // text.addEventListener("mouseover", function () {  // adds a red color to text with mouse hover
+        //     text.style.color = "red";
+        // });
+
+        // text.addEventListener("mouseout", function() { // color goes back to black after mouse stops hovering 
+        //     text.style.color = "black";
+        // }); -->
+    </script>
+</body>
+</html>

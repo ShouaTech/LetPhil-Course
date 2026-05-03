@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        .quote::before {
+            content: '"'; /* opening quote */
+        }
+
+        .quote::after {
+            content: '"'; /* closing quote */
+            font-size: 50px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <p class="quote">this is a quote.</p>
+</body>
+</html>
