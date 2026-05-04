@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    margin: 0 320px 10px 320px;
+    margin: 0;
 }
 
 .row {
@@ -17,6 +17,8 @@ h1 {
     font-size: 30px;
     background-color: black;
     color:white;
+    margin: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 5);
 }
 
 .two {
@@ -27,7 +29,8 @@ h1 {
     font-size: 30px;
     background-color: black;
     color: white;
-    margin: 1px;
+    margin: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 5);
 }
 
 .three {
@@ -38,7 +41,8 @@ h1 {
     font-size: 30px;
     background-color: black;
     color: white;
-    margin: 1px;
+    margin: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 5);
 }
 
 .four {
@@ -49,7 +53,8 @@ h1 {
     font-size: 30px;
     background-color: black;
     color: white;
-    margin: 1px;
+    margin: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 5);
 }
 
 .five {
@@ -60,7 +65,8 @@ h1 {
     font-size: 30px;
     background-color: black;
     color: white;
-    margin: 1px;
+    margin: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 5);
 }
 
  #first {

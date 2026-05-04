@@ -8,8 +8,8 @@ article {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-article:focus {
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); 
+article:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 h2 {
@@ -22,7 +22,6 @@ h2 {
 
 .highlight:hover {
     font-weight: bold;
-    color: red;
 }
 
 .quote::before {
