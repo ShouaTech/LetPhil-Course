@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center
+}
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.demo {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 80px;
+}
+
+.pill--inline {
+    display: inline;
+    padding: 4px 10px;
+    border-radius: 50px;
+    background-color: lightgrey;
+}
+
+.pill--block {
+    display: block;
+    padding: 4px 10px;
+    border-radius: 50px;
+    background-color: lightgrey;
+    margin-top: 5px;
+}
+
+.banner {
+    display: none;
+}
+
+.grid {
+    margin-top: 50px;
+}
+
+.grid, .card {
+    background-color: lightgrey;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 15px;
+}

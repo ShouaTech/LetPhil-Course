@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    max-width: 900px;
+    padding: 10px;
+}
+
+.filler {
+    min-height: 2700px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: tan;
+    border: 2px solid black;
+}
+
+.relative-parent {
+    position: relative;
+}

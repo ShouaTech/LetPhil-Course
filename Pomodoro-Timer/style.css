@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-image: url(images/pomodoro.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    height: 900px;
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+
+.timer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: 75px;
+    border: 2px solid lightsalmon;
+    border-radius: 100px;
+    margin: 90px;
+    padding: 50px;
+    box-shadow: 0 0 20px lightsalmon;
+    text-shadow: 2px 2px 15px lightsalmon;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 5px 5px 8px lightsalmon;
+    margin-top: 30px;
+}
+
+.work-break {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bt-times {
+    font-family: 'Rajdhani';
+    font-size: 25px;
+    border-radius: 15px;
+    color: white; 
+    background-color: black;
+    box-shadow: 0 0 15px lightsalmon;
+    text-shadow: 0 0 15px lightsalmon;
+    padding: 20px;
+}
+
+.right {
+    margin-left: 45px
+}
